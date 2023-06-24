@@ -1,0 +1,23 @@
+.btn{
+    padding: 0.5rem;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: burlywood;
+}
+input{
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid salmon;
+    width: 50%;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+}
+form{
+    border: 1px solid salmon;
+}
+a{
+    text-decoration: overline;
+}

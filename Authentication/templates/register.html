@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<div class="container">
+    <h1>Register form</h1>
+    <form method="POST">
+        {% csrf_token %} {{ form.as_p }}
+        <input class="btn" type="submit" value="Sign Up">
+    </form>
+    <p style="justify-content: start;">I aready have an account. <a href="/login">Click Here</a></p>
+</div>
+{% endblock %}
